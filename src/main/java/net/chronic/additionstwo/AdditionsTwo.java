@@ -1,5 +1,6 @@
 package net.chronic.additionstwo;
 
+import net.chronic.additionstwo.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +12,6 @@ public class AdditionsTwo implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
 	}
 }

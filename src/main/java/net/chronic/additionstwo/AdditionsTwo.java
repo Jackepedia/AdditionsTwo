@@ -1,5 +1,7 @@
 package net.chronic.additionstwo;
 
+import net.chronic.additionstwo.block.ModBlocks;
+import net.chronic.additionstwo.item.ModItemGroups;
 import net.chronic.additionstwo.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +15,7 @@ public class AdditionsTwo implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+		ModItemGroups.registerItemGroups();
 	}
 }

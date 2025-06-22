@@ -16,8 +16,13 @@ public class ModBlocks {
 
     public static final Block STEEL_BLOCK = registerBlock("steel_block",
             new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.COPPER)));
+
     public static final Block SAMPLEORE = registerBlock("sampleore",
             new Block(AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block RAWSAMPLEBLOCK = registerBlock("rawsampleblock",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block SAMPLEBLOCK = registerBlock("sampleblock",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
 
 

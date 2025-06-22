@@ -1,7 +1,29 @@
 {
   "item.additionstwo.steel_ingot": "Steel Ingot",
+  "item.additionstwo.brass_ingot": "Brass Ingot",
+  "item.additionstwo.bronze_ingot": "Bronze Ingot",
+  "item.additionstwo.mythril_ingot": "Mythril Ingot",
+  "item.additionstwo.raw_mythril": "Raw Mythril",
 
   "block.additionstwo.steel_block": "Block of Steel",
+  "block.additionstwo.brass_block": "Block of Brass",
+  "block.additionstwo.bronze_block": "Block of Bronze",
+  "block.additionstwo.mythril_block": "Block of Mythril",
+  "block.additionstwo.mythril_ore": "Mythril Ore",
+  "block.additionstwo.deepslate_mythril_ore": "Deepslate Mythril Ore",
+
+  "block.additionstwo.sample_stairs": "Sample Stairs",
+  "block.additionstwo.sample_slab": "Sample Slab",
+
+  "block.additionstwo.sample_door": "Sample Door",
+  "block.additionstwo.sample_trapdoor": "Sample Trapdoor",
+
+  "block.additionstwo.sample_fence": "Sample Fence",
+  "block.additionstwo.sample_fence_gate": "Sample Fence Gate",
+  "block.additionstwo.sample_wall": "Sample Wall",
+
+  "block.additionstwo.sample_button": "Sample Button",
+  "block.additionstwo.sample_pressure_plate": "Sample Pressure Plate",
 
   "itemgroup.additionstwo.additions": "Additions"
 

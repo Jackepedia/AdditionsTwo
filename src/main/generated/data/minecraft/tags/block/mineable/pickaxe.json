@@ -2,6 +2,11 @@
   "values": [
     "additionstwo:steel_block",
     "additionstwo:sampleblock",
-    "additionstwo:rawsampleblock"
+    "additionstwo:rawsampleblock",
+    "additionstwo:mythril_block",
+    "additionstwo:brass_block",
+    "additionstwo:bronze_block",
+    "additionstwo:mythril_ore",
+    "additionstwo:deepslate_mythril_ore"
   ]
 }

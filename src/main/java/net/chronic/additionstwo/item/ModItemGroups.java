@@ -16,7 +16,15 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.additionstwo.additions"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.STEEL_INGOT);
+                        entries.add(ModItems.BRASS_INGOT);
+                        entries.add(ModItems.BRONZE_INGOT);
+                        entries.add(ModItems.MYTHRIL_INGOT);
+                        entries.add(ModItems.RAW_MYTHRIL);
                         entries.add(ModBlocks.STEEL_BLOCK);
+                        entries.add(ModBlocks.BRASS_BLOCK);
+                        entries.add(ModBlocks.BRONZE_BLOCK);
+                        entries.add(ModBlocks.MYTHRIL_BLOCK);
+                        entries.add(ModBlocks.MYTHRIL_ORE);
 
                     }).build());
 

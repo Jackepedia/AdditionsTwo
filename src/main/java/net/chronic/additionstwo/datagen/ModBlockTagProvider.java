@@ -17,7 +17,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.STEEL_BLOCK)
-                .add(ModBlocks.SAMPLEBLOCK)
-                .add(ModBlocks.RAWSAMPLEBLOCK);
+                .add(ModBlocks.SAMPLE_BLOCK)
+                .add(ModBlocks.RAW_SAMPLE_BLOCK)
+                .add(ModBlocks.MYTHRIL_BLOCK)
+                .add(ModBlocks.BRASS_BLOCK)
+                .add(ModBlocks.BRONZE_BLOCK)
+                .add(ModBlocks.MYTHRIL_ORE)
+                .add(ModBlocks.DEEPSLATE_MYTHRIL_ORE);
     }
 }

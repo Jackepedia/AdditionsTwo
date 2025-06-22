@@ -24,14 +24,21 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(RecipeExporter exporter) {
-        List<ItemConvertible> SAMPLE_SMELTABLES = List.of(ModItems.RAWSAMPLEITEM, ModBlocks.SAMPLEORE);
+        List<ItemConvertible> SAMPLE_SMELTABLES = List.of(ModItems.RAWSAMPLEITEM, ModBlocks.SAMPLE_ORE);
+        List<ItemConvertible> MYTHRIL_SMELTABLES = List.of(ModItems.RAW_MYTHRIL, ModBlocks.MYTHRIL_ORE);
 
         offerSmelting(exporter, SAMPLE_SMELTABLES, RecipeCategory.MISC, ModItems.SAMPLEITEM, 0.25f, 200, "sampleitem");
         offerBlasting(exporter, SAMPLE_SMELTABLES, RecipeCategory.MISC, ModItems.SAMPLEITEM, 0.25f, 200, "sampleitem");
 
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.STEEL_INGOT, RecipeCategory.MISC, ModBlocks.STEEL_BLOCK);
+        offerSmelting(exporter, MYTHRIL_SMELTABLES, RecipeCategory.MISC, ModItems.MYTHRIL_INGOT, 0.25f, 200, "mythril_ingot");
+        offerBlasting(exporter, MYTHRIL_SMELTABLES, RecipeCategory.MISC, ModItems.MYTHRIL_INGOT, 0.25f, 200, "mythril_ingot");
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAWSAMPLEBLOCK)
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.STEEL_INGOT, RecipeCategory.MISC, ModBlocks.STEEL_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.BRASS_INGOT, RecipeCategory.MISC, ModBlocks.BRASS_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.BRONZE_INGOT, RecipeCategory.MISC, ModBlocks.BRONZE_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.MYTHRIL_INGOT, RecipeCategory.MISC, ModBlocks.MYTHRIL_BLOCK);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_SAMPLE_BLOCK)
                 .pattern("RRR")
                 .pattern("RRR")
                 .pattern("RRR")
@@ -41,13 +48,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAWSAMPLEITEM, 9)
-                .input(ModBlocks.RAWSAMPLEBLOCK)
-                .criterion(hasItem(ModBlocks.RAWSAMPLEBLOCK), conditionsFromItem(ModBlocks.RAWSAMPLEBLOCK))
+                .input(ModBlocks.RAW_SAMPLE_BLOCK)
+                .criterion(hasItem(ModBlocks.RAW_SAMPLE_BLOCK), conditionsFromItem(ModBlocks.RAW_SAMPLE_BLOCK))
                 .offerTo(exporter);
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAWSAMPLEITEM, 32)
-                .input(ModBlocks.SAMPLEBLOCK)
-                .criterion(hasItem(ModBlocks.RAWSAMPLEBLOCK), conditionsFromItem(ModBlocks.RAWSAMPLEBLOCK))
+                .input(ModBlocks.SAMPLE_BLOCK)
+                .criterion(hasItem(ModBlocks.RAW_SAMPLE_BLOCK), conditionsFromItem(ModBlocks.RAW_SAMPLE_BLOCK))
                 .offerTo(exporter, Identifier.of(AdditionsTwo.MOD_ID, "rawsampleitem_from_sampleblock"));
     }
 }

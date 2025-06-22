@@ -16,6 +16,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(ModTags.Items.SAMPLE_ITEM_TAG)
-                .add(ModItems.STEEL_INGOT);
+                .add(ModItems.SAMPLEITEM)
+                .add(ModItems.RAWSAMPLEITEM);
     }
 }

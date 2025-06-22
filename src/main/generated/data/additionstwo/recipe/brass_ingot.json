@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "additionstwo:brass_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "additionstwo:brass_ingot"
+  }
+}

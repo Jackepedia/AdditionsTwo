@@ -16,7 +16,13 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.STEEL_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SAMPLEORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BRONZE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BRASS_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MYTHRIL_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MYTHRIL_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_MYTHRIL_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SAMPLE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SAMPLE_BLOCK);
 
 
     }
@@ -24,6 +30,10 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.STEEL_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BRASS_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BRONZE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MYTHRIL_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_MYTHRIL, Models.GENERATED);
         itemModelGenerator.register(ModItems.SAMPLEITEM, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAWSAMPLEITEM, Models.GENERATED);
 

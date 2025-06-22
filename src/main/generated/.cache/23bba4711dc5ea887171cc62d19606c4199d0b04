@@ -1,3 +1,5 @@
-// 1.21	2025-06-22T02:13:36.0386233	Additions Two/Block Loot Tables
+// 1.21	2025-06-22T17:28:41.152895	Additions Two/Block Loot Tables
 1bbfb89debd9744089109d56854787808859c626 data\additionstwo\loot_table\blocks\sampleore.json
+3492a9bd33876011b51f8fab84fa0cf71ee2cd1b data\additionstwo\loot_table\blocks\mythril_ore.json
 1d1a04bc2b7c8e9842def9ce1445ada413fc7637 data\additionstwo\loot_table\blocks\steel_block.json
+3c04eac0e7170f4476d9977dfeb28e2b1d462464 data\additionstwo\loot_table\blocks\deepslate_mythril_ore.json

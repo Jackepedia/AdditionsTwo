@@ -25,6 +25,17 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BRONZE_BLOCK);
                         entries.add(ModBlocks.MYTHRIL_BLOCK);
                         entries.add(ModBlocks.MYTHRIL_ORE);
+                        entries.add(ModBlocks.SAMPLE_BLOCK);
+                        entries.add(ModBlocks.RAW_SAMPLE_BLOCK);
+                        entries.add(ModBlocks.SAMPLE_STAIRS);
+                        entries.add(ModBlocks.SAMPLE_SLAB);
+                        entries.add(ModBlocks.SAMPLE_BUTTON);
+                        entries.add(ModBlocks.SAMPLE_WALL);
+                        entries.add(ModBlocks.SAMPLE_FENCE);
+                        entries.add(ModBlocks.SAMPLE_FENCE_GATE);
+                        entries.add(ModBlocks.SAMPLE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.SAMPLE_DOOR);
+                        entries.add(ModBlocks.SAMPLE_TRAPDOOR);
 
                     }).build());
 

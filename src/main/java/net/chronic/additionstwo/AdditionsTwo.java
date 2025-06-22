@@ -14,8 +14,8 @@ public class AdditionsTwo implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 	}
 }

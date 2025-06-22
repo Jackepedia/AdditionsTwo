@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "additionstwo:block/sampleblock",
+    "side": "additionstwo:block/sampleblock",
+    "top": "additionstwo:block/sampleblock"
+  }
+}

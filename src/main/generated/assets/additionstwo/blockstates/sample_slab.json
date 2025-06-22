@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "additionstwo:block/sample_slab"
+    },
+    "type=double": {
+      "model": "additionstwo:block/sampleblock"
+    },
+    "type=top": {
+      "model": "additionstwo:block/sample_slab_top"
+    }
+  }
+}

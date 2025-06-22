@@ -11,7 +11,6 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
-import java.awt.*;
 
 public class ModBlocks {
 
@@ -28,6 +27,15 @@ public class ModBlocks {
     public static final Block DEEPSLATE_MYTHRIL_ORE = registerBlock("deepslate_mythril_ore",
             new Block(AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
+
+    public static final Block SAMPLE_ORE = registerBlock("sampleore",
+            new Block(AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block RAW_SAMPLE_BLOCK = registerBlock("rawsampleblock",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block SAMPLE_BLOCK = registerBlock("sampleblock",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+
+
     public static final Block SAMPLE_STAIRS = registerBlock("sample_stairs",
             new StairsBlock(ModBlocks.SAMPLE_BLOCK.getDefaultState(),
                     AbstractBlock.Settings.create().strength(2f).requiresTool()));
@@ -35,10 +43,10 @@ public class ModBlocks {
             new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
 
     public static final Block SAMPLE_BUTTON = registerBlock("sample_button",
-            new ButtonBlock(BlockSetType.IRON, 2,
+            new ButtonBlock(BlockSetType.OAK, 2,
                     AbstractBlock.Settings.create().strength(2f).requiresTool().noCollision()));
     public static final Block SAMPLE_PRESSURE_PLATE = registerBlock("sample_pressure_plate",
-            new PressurePlateBlock(BlockSetType.IRON,
+            new PressurePlateBlock(BlockSetType.OAK,
                     AbstractBlock.Settings.create().strength(2f).requiresTool()));
 
     public static final Block SAMPLE_FENCE = registerBlock("sample_fence",
@@ -50,20 +58,14 @@ public class ModBlocks {
             new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
 
     public static final Block SAMPLE_DOOR = registerBlock("sample_door",
-            new DoorBlock(BlockSetType.IRON,
+            new DoorBlock(BlockSetType.OAK,
                     AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
     public static final Block SAMPLE_TRAPDOOR = registerBlock("sample_trapdoor",
-            new TrapdoorBlock(BlockSetType.IRON,
+            new TrapdoorBlock(BlockSetType.OAK,
                     AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
 
 
 
-    public static final Block SAMPLE_ORE = registerBlock("sampleore",
-            new Block(AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
-    public static final Block RAW_SAMPLE_BLOCK = registerBlock("rawsampleblock",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
-    public static final Block SAMPLE_BLOCK = registerBlock("sampleblock",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
 
 
@@ -80,12 +82,5 @@ public class ModBlocks {
 
     public static void registerModBlocks() {
         AdditionsTwo.LOGGER.info("Registering Blocks for " + AdditionsTwo.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(ModBlocks.STEEL_BLOCK);
-            entries.add(ModBlocks.RAW_SAMPLE_BLOCK);
-            entries.add(ModBlocks.SAMPLE_BLOCK);
-            entries.add(ModBlocks.SAMPLE_ORE);
-        });
     }
 }

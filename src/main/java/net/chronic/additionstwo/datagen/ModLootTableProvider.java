@@ -30,7 +30,22 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.MYTHRIL_ORE, multipleOreDrops(ModBlocks.MYTHRIL_ORE, ModItems.RAW_MYTHRIL, 1, 3));
         addDrop(ModBlocks.DEEPSLATE_MYTHRIL_ORE, multipleOreDrops(ModBlocks.DEEPSLATE_MYTHRIL_ORE, ModItems.RAW_MYTHRIL, 2, 5));
 
+
         addDrop(ModBlocks.SAMPLE_ORE, multipleOreDrops(ModBlocks.SAMPLE_ORE, ModItems.RAWSAMPLEITEM, 1, 5));
+
+        addDrop(ModBlocks.SAMPLE_STAIRS);
+        addDrop(ModBlocks.SAMPLE_SLAB, slabDrops(ModBlocks.SAMPLE_SLAB));
+
+        addDrop(ModBlocks.SAMPLE_BUTTON);
+        addDrop(ModBlocks.SAMPLE_PRESSURE_PLATE);
+
+        addDrop(ModBlocks.SAMPLE_FENCE);
+        addDrop(ModBlocks.SAMPLE_FENCE_GATE);
+        addDrop(ModBlocks.SAMPLE_WALL);
+
+        addDrop(ModBlocks.SAMPLE_DOOR, doorDrops(ModBlocks.SAMPLE_DOOR));
+        addDrop(ModBlocks.SAMPLE_TRAPDOOR);
+
 
     }
 

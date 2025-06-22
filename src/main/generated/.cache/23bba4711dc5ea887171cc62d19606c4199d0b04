@@ -1,5 +1,14 @@
-// 1.21	2025-06-22T17:28:41.152895	Additions Two/Block Loot Tables
-1bbfb89debd9744089109d56854787808859c626 data\additionstwo\loot_table\blocks\sampleore.json
-3492a9bd33876011b51f8fab84fa0cf71ee2cd1b data\additionstwo\loot_table\blocks\mythril_ore.json
+// 1.21	2025-06-22T18:46:22.0111191	Additions Two/Block Loot Tables
+a8a4b132b4715e2819d42b477263b5b67f3489c3 data\additionstwo\loot_table\blocks\sample_slab.json
+d4c607a6cf436ae4a786a3659571801888affd41 data\additionstwo\loot_table\blocks\sample_door.json
 1d1a04bc2b7c8e9842def9ce1445ada413fc7637 data\additionstwo\loot_table\blocks\steel_block.json
+3c5031390ec906d065f633815f0cf760cfe8a5d0 data\additionstwo\loot_table\blocks\sample_button.json
+64e8e50a6866817c181e0e96c6db9a279ed2c6cb data\additionstwo\loot_table\blocks\sample_trapdoor.json
+8172b1d5b6b90790d706a5f6fd6aa732aac3f48c data\additionstwo\loot_table\blocks\sample_fence_gate.json
+c7c0718a183696ba1e336461473be79fe464ac4f data\additionstwo\loot_table\blocks\sample_wall.json
+1bbfb89debd9744089109d56854787808859c626 data\additionstwo\loot_table\blocks\sampleore.json
+cf145cbe562c030c2be70193894c5e773fd96b15 data\additionstwo\loot_table\blocks\sample_stairs.json
+3492a9bd33876011b51f8fab84fa0cf71ee2cd1b data\additionstwo\loot_table\blocks\mythril_ore.json
+449b195f431cc38e463f24a0e3d2390a0ffaeac8 data\additionstwo\loot_table\blocks\sample_pressure_plate.json
+2015596b22cce23557aae7b2b27633a905e236b3 data\additionstwo\loot_table\blocks\sample_fence.json
 3c04eac0e7170f4476d9977dfeb28e2b1d462464 data\additionstwo\loot_table\blocks\deepslate_mythril_ore.json

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "additionstwo:block/sample_door_bottom",
+    "top": "additionstwo:block/sample_door_top"
+  }
+}

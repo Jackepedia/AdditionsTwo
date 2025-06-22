@@ -56,5 +56,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(ModBlocks.SAMPLE_BLOCK)
                 .criterion(hasItem(ModBlocks.RAW_SAMPLE_BLOCK), conditionsFromItem(ModBlocks.RAW_SAMPLE_BLOCK))
                 .offerTo(exporter, Identifier.of(AdditionsTwo.MOD_ID, "rawsampleitem_from_sampleblock"));
+
+
     }
 }

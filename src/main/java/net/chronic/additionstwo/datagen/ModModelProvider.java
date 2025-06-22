@@ -22,8 +22,18 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MYTHRIL_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_MYTHRIL_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SAMPLE_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SAMPLE_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool SamplePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SAMPLE_BLOCK);
 
+        SamplePool.stairs(ModBlocks.SAMPLE_STAIRS);
+        SamplePool.slab(ModBlocks.SAMPLE_SLAB);
+        SamplePool.fence(ModBlocks.SAMPLE_FENCE);
+        SamplePool.fenceGate(ModBlocks.SAMPLE_FENCE_GATE);
+        SamplePool.wall(ModBlocks.SAMPLE_WALL);
+        SamplePool.button(ModBlocks.SAMPLE_BUTTON);
+        SamplePool.pressurePlate(ModBlocks.SAMPLE_PRESSURE_PLATE);
+
+        blockStateModelGenerator.registerDoor(ModBlocks.SAMPLE_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.SAMPLE_TRAPDOOR);
 
     }
 

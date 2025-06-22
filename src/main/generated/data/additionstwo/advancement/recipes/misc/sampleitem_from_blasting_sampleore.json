@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sampleore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "additionstwo:sampleore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:sampleitem_from_blasting_sampleore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sampleore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:sampleitem_from_blasting_sampleore"
+    ]
+  }
+}

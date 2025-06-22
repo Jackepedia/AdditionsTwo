@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rawsampleitem": {
+      "conditions": {
+        "items": [
+          {
+            "items": "additionstwo:rawsampleitem"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:sampleitem_from_smelting_rawsampleitem"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_rawsampleitem"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:sampleitem_from_smelting_rawsampleitem"
+    ]
+  }
+}

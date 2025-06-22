@@ -12,6 +12,11 @@ public class ModItems {
     public static final Item STEEL_INGOT = registerItem("steel_ingot", new Item(new Item.Settings()));
 
 
+    public static final Item SAMPLEITEM = registerItem("sampleitem", new Item(new Item.Settings()));
+    public static final Item RAWSAMPLEITEM = registerItem("rawsampleitem", new Item(new Item.Settings()));
+
+
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(AdditionsTwo.MOD_ID, name), item);
     }

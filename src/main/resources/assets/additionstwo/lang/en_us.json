@@ -1,6 +1,8 @@
 {
   "item.additionstwo.steel_ingot": "Steel Ingot",
 
-  "block.additionstwo.steel_block": "Block of Steel"
+  "block.additionstwo.steel_block": "Block of Steel",
+
+  "itemgroup.additionstwo.additions": "Additions"
 
 }

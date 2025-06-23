@@ -25,6 +25,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BRONZE_BLOCK);
                         entries.add(ModBlocks.MYTHRIL_BLOCK);
                         entries.add(ModBlocks.MYTHRIL_ORE);
+
                         entries.add(ModBlocks.SAMPLE_BLOCK);
                         entries.add(ModBlocks.RAW_SAMPLE_BLOCK);
                         entries.add(ModBlocks.SAMPLE_STAIRS);
@@ -36,6 +37,50 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SAMPLE_PRESSURE_PLATE);
                         entries.add(ModBlocks.SAMPLE_DOOR);
                         entries.add(ModBlocks.SAMPLE_TRAPDOOR);
+
+                        entries.add(ModItems.STEEL_SWORD);
+                        entries.add(ModItems.STEEL_PICKAXE);
+                        entries.add(ModItems.STEEL_AXE);
+                        entries.add(ModItems.STEEL_SHOVEL);
+                        entries.add(ModItems.STEEL_HOE);
+
+                        entries.add(ModItems.BRONZE_SWORD);
+                        entries.add(ModItems.BRONZE_PICKAXE);
+                        entries.add(ModItems.BRONZE_AXE);
+                        entries.add(ModItems.BRONZE_SHOVEL);
+                        entries.add(ModItems.BRONZE_HOE);
+
+                        entries.add(ModItems.BRASS_SWORD);
+                        entries.add(ModItems.BRASS_PICKAXE);
+                        entries.add(ModItems.BRASS_AXE);
+                        entries.add(ModItems.BRASS_SHOVEL);
+                        entries.add(ModItems.BRASS_HOE);
+
+                        entries.add(ModItems.MYTHRIL_SWORD);
+                        entries.add(ModItems.MYTHRIL_PICKAXE);
+                        entries.add(ModItems.MYTHRIL_AXE);
+                        entries.add(ModItems.MYTHRIL_SHOVEL);
+                        entries.add(ModItems.MYTHRIL_HOE);
+
+                        entries.add(ModItems.STEEL_HELMET);
+                        entries.add(ModItems.STEEL_CHESTPLATE);
+                        entries.add(ModItems.STEEL_LEGGINGS);
+                        entries.add(ModItems.STEEL_BOOTS);
+
+                        entries.add(ModItems.BRONZE_HELMET);
+                        entries.add(ModItems.BRONZE_CHESTPLATE);
+                        entries.add(ModItems.BRONZE_LEGGINGS);
+                        entries.add(ModItems.BRONZE_BOOTS);
+
+                        entries.add(ModItems.BRASS_HELMET);
+                        entries.add(ModItems.BRASS_CHESTPLATE);
+                        entries.add(ModItems.BRASS_LEGGINGS);
+                        entries.add(ModItems.BRASS_BOOTS);
+
+                        entries.add(ModItems.MYTHRIL_HELMET);
+                        entries.add(ModItems.MYTHRIL_CHESTPLATE);
+                        entries.add(ModItems.MYTHRIL_LEGGINGS);
+                        entries.add(ModItems.MYTHRIL_BOOTS);
 
                     }).build());
 

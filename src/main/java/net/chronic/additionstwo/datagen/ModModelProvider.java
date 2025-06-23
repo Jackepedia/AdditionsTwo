@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -46,6 +47,46 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RAW_MYTHRIL, Models.GENERATED);
         itemModelGenerator.register(ModItems.SAMPLEITEM, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAWSAMPLEITEM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.STEEL_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.STEEL_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.STEEL_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.STEEL_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.STEEL_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BRONZE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BRONZE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BRONZE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BRONZE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BRONZE_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BRASS_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BRASS_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BRASS_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BRASS_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BRASS_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MYTHRIL_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MYTHRIL_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MYTHRIL_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MYTHRIL_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MYTHRIL_HOE, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.STEEL_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.STEEL_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.STEEL_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.STEEL_BOOTS));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BRONZE_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BRONZE_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BRONZE_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BRONZE_BOOTS));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BRASS_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BRASS_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BRASS_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BRASS_BOOTS));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.MYTHRIL_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.MYTHRIL_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.MYTHRIL_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.MYTHRIL_BOOTS));
 
 
     }

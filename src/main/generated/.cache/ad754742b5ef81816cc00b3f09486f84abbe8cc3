@@ -1,3 +1,8 @@
-// 1.21	2025-06-23T03:20:47.7149626	Additions Two/Tags for minecraft:item
+// 1.21	2025-06-24T13:02:06.1135435	Additions Two/Tags for minecraft:item
+08849fef1815a43212fe60828085e4c5add1cc09 data\minecraft\tags\item\axes.json
+7afd0ec18e7d6a5902ac9594c7e17fb79244c641 data\minecraft\tags\item\shovels.json
+e7e2621bacde10367ee703d4645ed0191157d081 data\minecraft\tags\item\pickaxes.json
 e59ca1ff9d744cfd3d21c10ca775a377ea38b58f data\additionstwo\tags\item\sample_item_tag.json
 9b372524186521c52d5a2d4d99ddff8882919f8f data\minecraft\tags\item\trimmable_armor.json
+43e85a02ef1d501e7857fbfcf2db1a40fb98036a data\minecraft\tags\item\swords.json
+840384ec3515cbbec07a73f92e39a2be422e335e data\minecraft\tags\item\hoes.json

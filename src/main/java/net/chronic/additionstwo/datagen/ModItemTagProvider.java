@@ -20,6 +20,32 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.SAMPLEITEM)
                 .add(ModItems.RAWSAMPLEITEM);
 
+        getOrCreateTagBuilder(ItemTags.SWORDS)
+                .add(ModItems.STEEL_SWORD)
+                .add(ModItems.BRONZE_SWORD)
+                .add(ModItems.BRASS_SWORD)
+                .add(ModItems.MYTHRIL_SWORD);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.STEEL_PICKAXE)
+                .add(ModItems.BRONZE_PICKAXE)
+                .add(ModItems.BRASS_PICKAXE)
+                .add(ModItems.MYTHRIL_PICKAXE);
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItems.STEEL_AXE)
+                .add(ModItems.BRONZE_AXE)
+                .add(ModItems.BRASS_AXE)
+                .add(ModItems.MYTHRIL_AXE);
+        getOrCreateTagBuilder(ItemTags.SHOVELS)
+                .add(ModItems.STEEL_SHOVEL)
+                .add(ModItems.BRONZE_SHOVEL)
+                .add(ModItems.BRASS_SHOVEL)
+                .add(ModItems.MYTHRIL_SHOVEL);
+        getOrCreateTagBuilder(ItemTags.HOES)
+                .add(ModItems.STEEL_HOE)
+                .add(ModItems.BRONZE_HOE)
+                .add(ModItems.BRASS_HOE)
+                .add(ModItems.MYTHRIL_HOE);
+
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.STEEL_HELMET)
                 .add(ModItems.STEEL_CHESTPLATE)

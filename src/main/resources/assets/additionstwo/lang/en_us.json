@@ -49,6 +49,27 @@
   "block.additionstwo.sample_button": "Sample Button",
   "block.additionstwo.sample_pressure_plate": "Sample Pressure Plate",
 
+  "item.additionstwo.steel_helmet": "Steel Helmet",
+  "item.additionstwo.steel_chestplate": "Steel Chestplate",
+  "item.additionstwo.steel_leggings": "Steel Leggings",
+  "item.additionstwo.steel_boots": "Steel Boots",
+
+  "item.additionstwo.bronze_helmet": "Bronze Helmet",
+  "item.additionstwo.bronze_chestplate": "Bronze Chestplate",
+  "item.additionstwo.bronze_leggings": "Bronze Leggings",
+  "item.additionstwo.bronze_boots": "Bronze Boots",
+
+  "item.additionstwo.brass_helmet": "Brass Helmet",
+  "item.additionstwo.brass_chestplate": "Brass Chestplate",
+  "item.additionstwo.brass_leggings": "Brass Leggings",
+  "item.additionstwo.brass_boots": "Brass Boots",
+
+  "item.additionstwo.mythril_helmet": "Mythril Helmet",
+  "item.additionstwo.mythril_chestplate": "Mythril Chestplate",
+  "item.additionstwo.mythril_leggings": "Mythril Leggings",
+  "item.additionstwo.mythril_boots": "Mythril Boots",
+
+
   "itemgroup.additionstwo.additions": "Additions"
 
 }

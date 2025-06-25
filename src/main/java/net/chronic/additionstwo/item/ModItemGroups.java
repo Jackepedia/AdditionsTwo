@@ -25,6 +25,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BRONZE_BLOCK);
                         entries.add(ModBlocks.MYTHRIL_BLOCK);
                         entries.add(ModBlocks.MYTHRIL_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_MYTHRIL_ORE);
 
                         entries.add(ModBlocks.SAMPLE_BLOCK);
                         entries.add(ModBlocks.RAW_SAMPLE_BLOCK);

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "additionstwo:steel_helmet"
+    },
+    "R": {
+      "item": "additionstwo:mythril_ingot"
+    }
+  },
+  "pattern": [
+    " R ",
+    "R#R",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "additionstwo:mythril_helmet"
+  }
+}

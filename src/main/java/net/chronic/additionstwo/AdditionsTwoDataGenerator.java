@@ -1,8 +1,12 @@
 package net.chronic.additionstwo;
 
 import net.chronic.additionstwo.datagen.*;
+import net.chronic.additionstwo.world.ModConfiguredFeatures;
+import net.chronic.additionstwo.world.ModPlacedFeatures;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.minecraft.registry.RegistryBuilder;
+import net.minecraft.registry.RegistryKeys;
 
 public class AdditionsTwoDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -14,5 +18,11 @@ public class AdditionsTwoDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModLootTableProvider::new);
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
+		pack.addProvider(ModRegistryDataGenerator::new);
+	}
+	@Override
+	public void buildRegistry(RegistryBuilder registryBuilder) {
+		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
+		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
 	}
 }

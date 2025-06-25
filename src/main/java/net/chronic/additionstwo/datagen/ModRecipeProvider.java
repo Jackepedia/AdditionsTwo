@@ -10,6 +10,7 @@ import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.util.Identifier;
@@ -57,6 +58,138 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(ModBlocks.SAMPLE_BLOCK)
                 .criterion(hasItem(ModBlocks.RAW_SAMPLE_BLOCK), conditionsFromItem(ModBlocks.RAW_SAMPLE_BLOCK))
                 .offerTo(exporter, Identifier.of(AdditionsTwo.MOD_ID, "rawsampleitem_from_sampleblock"));
+
+
+//  ARMOR CRAFTING STUFF
+
+        // STEEL
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.STEEL_HELMET)
+                .pattern("RRR")
+                .pattern("R R")
+                .pattern("   ")
+                .input('R', ModItems.STEEL_INGOT)
+                .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.STEEL_CHESTPLATE)
+                .pattern("R R")
+                .pattern("RRR")
+                .pattern("RRR")
+                .input('R', ModItems.STEEL_INGOT)
+                .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.STEEL_LEGGINGS)
+                .pattern("RRR")
+                .pattern("R R")
+                .pattern("R R")
+                .input('R', ModItems.STEEL_INGOT)
+                .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.STEEL_BOOTS)
+                .pattern("   ")
+                .pattern("R R")
+                .pattern("R R")
+                .input('R', ModItems.STEEL_INGOT)
+                .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
+                .offerTo(exporter);
+
+        // BRONZE
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BRONZE_HELMET)
+                .pattern("RRR")
+                .pattern("R R")
+                .pattern("   ")
+                .input('R', ModItems.BRONZE_INGOT)
+                .criterion(hasItem(ModItems.BRONZE_INGOT), conditionsFromItem(ModItems.BRONZE_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BRONZE_CHESTPLATE)
+                .pattern("R R")
+                .pattern("RRR")
+                .pattern("RRR")
+                .input('R', ModItems.BRONZE_INGOT)
+                .criterion(hasItem(ModItems.BRONZE_INGOT), conditionsFromItem(ModItems.BRONZE_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BRONZE_LEGGINGS)
+                .pattern("RRR")
+                .pattern("R R")
+                .pattern("R R")
+                .input('R', ModItems.BRONZE_INGOT)
+                .criterion(hasItem(ModItems.BRONZE_INGOT), conditionsFromItem(ModItems.BRONZE_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BRONZE_BOOTS)
+                .pattern("   ")
+                .pattern("R R")
+                .pattern("R R")
+                .input('R', ModItems.BRONZE_INGOT)
+                .criterion(hasItem(ModItems.BRONZE_INGOT), conditionsFromItem(ModItems.BRONZE_INGOT))
+                .offerTo(exporter);
+
+        // BRASS
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BRASS_HELMET)
+                .pattern("RRR")
+                .pattern("R R")
+                .pattern("   ")
+                .input('R', ModItems.BRASS_INGOT)
+                .criterion(hasItem(ModItems.BRASS_INGOT), conditionsFromItem(ModItems.BRASS_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BRASS_CHESTPLATE)
+                .pattern("R R")
+                .pattern("RRR")
+                .pattern("RRR")
+                .input('R', ModItems.BRASS_INGOT)
+                .criterion(hasItem(ModItems.BRASS_INGOT), conditionsFromItem(ModItems.BRASS_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BRASS_LEGGINGS)
+                .pattern("RRR")
+                .pattern("R R")
+                .pattern("R R")
+                .input('R', ModItems.BRASS_INGOT)
+                .criterion(hasItem(ModItems.BRASS_INGOT), conditionsFromItem(ModItems.BRASS_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BRASS_BOOTS)
+                .pattern("   ")
+                .pattern("R R")
+                .pattern("R R")
+                .input('R', ModItems.BRASS_INGOT)
+                .criterion(hasItem(ModItems.BRASS_INGOT), conditionsFromItem(ModItems.BRASS_INGOT))
+                .offerTo(exporter);
+
+        //MYTHRIL
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.MYTHRIL_HELMET)
+                .pattern(" R ")
+                .pattern("R#R")
+                .pattern(" R ")
+                .input('R', ModItems.MYTHRIL_INGOT)
+                .input('#', ModItems.STEEL_HELMET)
+                .criterion(hasItem(ModItems.MYTHRIL_INGOT), conditionsFromItem(ModItems.MYTHRIL_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.MYTHRIL_CHESTPLATE)
+                .pattern(" R ")
+                .pattern("R#R")
+                .pattern(" R ")
+                .input('R', ModItems.MYTHRIL_INGOT)
+                .input('#', ModItems.STEEL_CHESTPLATE)
+                .criterion(hasItem(ModItems.MYTHRIL_INGOT), conditionsFromItem(ModItems.MYTHRIL_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.MYTHRIL_LEGGINGS)
+                .pattern(" R ")
+                .pattern("R#R")
+                .pattern(" R ")
+                .input('R', ModItems.MYTHRIL_INGOT)
+                .input('#', ModItems.STEEL_CHESTPLATE)
+                .criterion(hasItem(ModItems.MYTHRIL_INGOT), conditionsFromItem(ModItems.MYTHRIL_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.MYTHRIL_BOOTS)
+                .pattern(" R ")
+                .pattern("R#R")
+                .pattern(" R ")
+                .input('R', ModItems.MYTHRIL_INGOT)
+                .input('#', ModItems.STEEL_BOOTS)
+                .criterion(hasItem(ModItems.MYTHRIL_INGOT), conditionsFromItem(ModItems.MYTHRIL_INGOT))
+                .offerTo(exporter);
+
 
 
     }

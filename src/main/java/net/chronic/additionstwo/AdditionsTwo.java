@@ -1,6 +1,7 @@
 package net.chronic.additionstwo;
 
 import net.chronic.additionstwo.block.ModBlocks;
+import net.chronic.additionstwo.block.entity.ModBlockEntities;
 import net.chronic.additionstwo.item.ModItemGroups;
 import net.chronic.additionstwo.item.ModItems;
 import net.chronic.additionstwo.world.gen.ModWorldGeneration;
@@ -18,7 +19,9 @@ public class AdditionsTwo implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModBlockEntities.registerBlockEntities();
 		ModItemGroups.registerItemGroups();
 		ModWorldGeneration.generateWorldGen();
+
 	}
 }

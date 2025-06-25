@@ -36,6 +36,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerDoor(ModBlocks.SAMPLE_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.SAMPLE_TRAPDOOR);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ALLOYER);
     }
 
     @Override
@@ -87,6 +88,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.MYTHRIL_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.MYTHRIL_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.MYTHRIL_BOOTS));
+
+
 
 
     }

@@ -1,6 +1,8 @@
 package net.chronic.additionstwo.block;
 
 import net.chronic.additionstwo.AdditionsTwo;
+import net.chronic.additionstwo.block.custom.AlloyerBlock;
+import net.chronic.additionstwo.block.custom.PedestalBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -64,8 +66,11 @@ public class ModBlocks {
             new TrapdoorBlock(BlockSetType.OAK,
                     AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
 
+    public static final Block ALLOYER = registerBlock("alloyer_block",
+            new AlloyerBlock(AbstractBlock.Settings.create().nonOpaque()));
 
-
+    public static final Block PEDESTAL = registerBlock("pedestal",
+            new PedestalBlock(AbstractBlock.Settings.create().nonOpaque()));
 
 
 

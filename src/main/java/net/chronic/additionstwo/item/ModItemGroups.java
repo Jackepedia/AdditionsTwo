@@ -39,6 +39,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SAMPLE_DOOR);
                         entries.add(ModBlocks.SAMPLE_TRAPDOOR);
 
+                        entries.add(ModBlocks.ALLOYER);
+                        entries.add(ModBlocks.PEDESTAL);
+
                         entries.add(ModItems.STEEL_SWORD);
                         entries.add(ModItems.STEEL_PICKAXE);
                         entries.add(ModItems.STEEL_AXE);

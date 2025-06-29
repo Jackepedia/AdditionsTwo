@@ -1,7 +1,8 @@
-// 1.21.1	2025-06-25T19:35:55.8830499	Additions Two/Recipes
+// 1.21.1	2025-06-28T23:11:15.9087247	Additions Two/Recipes
 d610393fd02cf5891fd9d3b8d9d6bf5010ea9536 data\additionstwo\advancement\recipes\misc\sampleitem_from_blasting_rawsampleitem.json
 bc204ff5c8d602215c0c324620201528632545d9 data\additionstwo\recipe\steel_boots.json
 7c05523d02d69007899a455879546bcba2d0b3e7 data\additionstwo\recipe\brass_ingot.json
+e82b348ebb487c229ef91bc41de172d7befab56e data\additionstwo\recipe\alloyer_block.json
 7cbb7affa929e59fb7f4ad8f20fc3ade2c5bc71a data\additionstwo\advancement\recipes\misc\rawsampleitem_from_sampleblock.json
 212a745ec1f95a913e3f400cb7457c476cc63de6 data\additionstwo\recipe\rawsampleblock.json
 99aee2f0d9bd49b564bd45e44f8383d3def284c5 data\additionstwo\advancement\recipes\misc\mythril_ingot_from_blasting_mythril_ore.json
@@ -33,6 +34,7 @@ fa86f680f822d8e91d37b1e9c88d7a3b838bd6bd data\additionstwo\advancement\recipes\b
 27511a88c42cbab62c15eda3e2802e3ddc64fdf8 data\additionstwo\advancement\recipes\building_blocks\mythril_ingot.json
 cbd0b87d0a21d4776d77d236fe4da913863e1828 data\additionstwo\recipe\steel_leggings.json
 0a872c6f74b25f8166e2aa3f22d096646f89d219 data\additionstwo\advancement\recipes\misc\bronze_block.json
+0b97d4af896546beb03e4e4f27de747760ad85c1 data\additionstwo\advancement\recipes\misc\alloyer_block.json
 4d5ab5f70d022c04fa7e48d2579f74eaef9fc6b3 data\additionstwo\advancement\recipes\combat\steel_chestplate.json
 073ac55263bc9cde157bbba662ae14f2359ae066 data\additionstwo\recipe\rawsampleitem.json
 dcb9f6e1eb65de4331885e8ad9ca522cd414440c data\additionstwo\recipe\bronze_helmet.json

@@ -27,12 +27,20 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     public void generate(RecipeExporter exporter) {
         List<ItemConvertible> SAMPLE_SMELTABLES = List.of(ModItems.RAWSAMPLEITEM, ModBlocks.SAMPLE_ORE);
         List<ItemConvertible> MYTHRIL_SMELTABLES = List.of(ModItems.RAW_MYTHRIL, ModBlocks.MYTHRIL_ORE);
+        List<ItemConvertible> TIN_SMELTABLES = List.of(ModItems.RAW_TIN, ModBlocks.TIN_ORE, ModBlocks.DEEPSLATE_TIN_ORE);
+        List<ItemConvertible> ZINC_SMELTABLES = List.of(ModItems.RAW_ZINC, ModBlocks.ZINC_ORE, ModBlocks.DEEPSLATE_ZINC_ORE);
 
         offerSmelting(exporter, SAMPLE_SMELTABLES, RecipeCategory.MISC, ModItems.SAMPLEITEM, 0.25f, 200, "sampleitem");
         offerBlasting(exporter, SAMPLE_SMELTABLES, RecipeCategory.MISC, ModItems.SAMPLEITEM, 0.25f, 200, "sampleitem");
 
         offerSmelting(exporter, MYTHRIL_SMELTABLES, RecipeCategory.MISC, ModItems.MYTHRIL_INGOT, 0.25f, 200, "mythril_ingot");
         offerBlasting(exporter, MYTHRIL_SMELTABLES, RecipeCategory.MISC, ModItems.MYTHRIL_INGOT, 0.25f, 200, "mythril_ingot");
+
+        offerSmelting(exporter, TIN_SMELTABLES, RecipeCategory.MISC, ModItems.TIN_INGOT, 0.25f, 200, "tin_ingot");
+        offerBlasting(exporter, TIN_SMELTABLES, RecipeCategory.MISC, ModItems.TIN_INGOT, 0.25f, 200, "tin_ingot");
+
+        offerSmelting(exporter, ZINC_SMELTABLES, RecipeCategory.MISC, ModItems.ZINC_INGOT, 0.25f, 200, "zinc_ingot");
+        offerBlasting(exporter, ZINC_SMELTABLES, RecipeCategory.MISC, ModItems.ZINC_INGOT, 0.25f, 200, "zinc_ingot");
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.STEEL_INGOT, RecipeCategory.MISC, ModBlocks.STEEL_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.BRASS_INGOT, RecipeCategory.MISC, ModBlocks.BRASS_BLOCK);
@@ -189,6 +197,22 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('#', ModItems.STEEL_BOOTS)
                 .criterion(hasItem(ModItems.MYTHRIL_INGOT), conditionsFromItem(ModItems.MYTHRIL_INGOT))
                 .offerTo(exporter);
+
+    ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ALLOYER)
+                .pattern("DDD")
+                .pattern("BAB")
+                .pattern("CCC")
+                .input('A', Items.BLAST_FURNACE)
+                .input('B', Items.BRICKS)
+                .input('C', Items.POLISHED_BLACKSTONE)
+                .input('D', Items.SMOOTH_STONE)
+                .criterion(hasItem(Items.BLAST_FURNACE), conditionsFromItem(Items.BLAST_FURNACE))
+                .criterion(hasItem(Items.SMOOTH_STONE), conditionsFromItem(Items.SMOOTH_STONE))
+                .criterion(hasItem(Items.POLISHED_BLACKSTONE), conditionsFromItem(Items.POLISHED_BLACKSTONE))
+                .criterion(hasItem(Items.BRICKS), conditionsFromItem(Items.BRICKS))
+                .offerTo(exporter);
+
+
 
 
 

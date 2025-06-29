@@ -22,6 +22,10 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MYTHRIL_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MYTHRIL_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_MYTHRIL_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TIN_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_TIN_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ZINC_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_ZINC_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SAMPLE_ORE);
         BlockStateModelGenerator.BlockTexturePool SamplePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SAMPLE_BLOCK);
 
@@ -37,6 +41,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerTrapdoor(ModBlocks.SAMPLE_TRAPDOOR);
 
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ALLOYER);
+        blockStateModelGenerator.register();
     }
 
     @Override
@@ -45,6 +50,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.BRASS_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.BRONZE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.MYTHRIL_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TIN_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ZINC_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_TIN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_ZINC, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_MYTHRIL, Models.GENERATED);
         itemModelGenerator.register(ModItems.SAMPLEITEM, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAWSAMPLEITEM, Models.GENERATED);

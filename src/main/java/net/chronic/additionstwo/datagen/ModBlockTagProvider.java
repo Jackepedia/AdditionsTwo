@@ -24,7 +24,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BRASS_BLOCK)
                 .add(ModBlocks.BRONZE_BLOCK)
                 .add(ModBlocks.MYTHRIL_ORE)
-                .add(ModBlocks.DEEPSLATE_MYTHRIL_ORE);
+                .add(ModBlocks.DEEPSLATE_MYTHRIL_ORE)
+                .add(ModBlocks.TIN_ORE)
+                .add(ModBlocks.DEEPSLATE_TIN_ORE)
+                .add(ModBlocks.ZINC_ORE)
+                .add(ModBlocks.DEEPSLATE_ZINC_ORE);
 
 
 

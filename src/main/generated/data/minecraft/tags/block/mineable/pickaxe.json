@@ -7,6 +7,10 @@
     "additionstwo:brass_block",
     "additionstwo:bronze_block",
     "additionstwo:mythril_ore",
-    "additionstwo:deepslate_mythril_ore"
+    "additionstwo:deepslate_mythril_ore",
+    "additionstwo:tin_ore",
+    "additionstwo:deepslate_tin_ore",
+    "additionstwo:zinc_ore",
+    "additionstwo:deepslate_zinc_ore"
   ]
 }

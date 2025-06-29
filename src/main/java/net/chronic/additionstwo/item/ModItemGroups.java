@@ -19,13 +19,21 @@ public class ModItemGroups {
                         entries.add(ModItems.BRASS_INGOT);
                         entries.add(ModItems.BRONZE_INGOT);
                         entries.add(ModItems.MYTHRIL_INGOT);
+                        entries.add(ModItems.TIN_INGOT);
+                        entries.add(ModItems.ZINC_INGOT);
+                        entries.add(ModItems.RAW_TIN);
+                        entries.add(ModItems.RAW_ZINC);
                         entries.add(ModItems.RAW_MYTHRIL);
                         entries.add(ModBlocks.STEEL_BLOCK);
                         entries.add(ModBlocks.BRASS_BLOCK);
                         entries.add(ModBlocks.BRONZE_BLOCK);
                         entries.add(ModBlocks.MYTHRIL_BLOCK);
                         entries.add(ModBlocks.MYTHRIL_ORE);
+                        entries.add(ModBlocks.TIN_ORE);
+                        entries.add(ModBlocks.ZINC_ORE);
                         entries.add(ModBlocks.DEEPSLATE_MYTHRIL_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_TIN_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_ZINC_ORE);
 
                         entries.add(ModBlocks.SAMPLE_BLOCK);
                         entries.add(ModBlocks.RAW_SAMPLE_BLOCK);

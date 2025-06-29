@@ -4,6 +4,10 @@
   "item.additionstwo.bronze_ingot": "Bronze Ingot",
   "item.additionstwo.mythril_ingot": "Mythril Ingot",
   "item.additionstwo.raw_mythril": "Raw Mythril",
+  "item.additionstwo.tin_ingot": "Tin Ingot",
+  "item.additionstwo.raw_tin": "Raw Tin",
+  "item.additionstwo.zinc_ingot": "Zinc Ingot",
+  "item.additionstwo.raw_zinc": "Raw Zinc",
 
   "item.additionstwo.steel_sword": "Steel Sword",
   "item.additionstwo.steel_pickaxe": "Steel Pickaxe",
@@ -35,6 +39,10 @@
   "block.additionstwo.mythril_block": "Block of Mythril",
   "block.additionstwo.mythril_ore": "Mythril Ore",
   "block.additionstwo.deepslate_mythril_ore": "Deepslate Mythril Ore",
+  "block.additionstwo.tin_ore": "Tin Ore",
+  "block.additionstwo.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.additionstwo.zinc_ore": "Zinc Ore",
+  "block.additionstwo.deepslate_zinc_ore": "Deepslate Zinc Ore",
 
   "block.additionstwo.sample_stairs": "Sample Stairs",
   "block.additionstwo.sample_slab": "Sample Slab",
@@ -50,6 +58,7 @@
   "block.additionstwo.sample_pressure_plate": "Sample Pressure Plate",
 
   "block.additionstwo.alloyer_block": "Alloyer",
+  "block.additionstwo.pedestal": "Pedestal",
 
   "item.additionstwo.steel_helmet": "Steel Helmet",
   "item.additionstwo.steel_chestplate": "Steel Chestplate",

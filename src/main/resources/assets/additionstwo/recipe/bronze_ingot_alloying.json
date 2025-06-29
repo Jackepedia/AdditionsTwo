@@ -1,0 +1,16 @@
+{
+  "type": "additionstwo:alloyer",
+  "ingredient1": {
+    "item": "additionstwo:tin_ingot"
+  },
+  "ingredient2": {
+    "item": "minecraft:gold_ingot"
+  },
+  "ingredient3": {
+    "item": "minecraft:coal"
+  },
+  "result": {
+    "item": "additionstwo:bronze_ingot",
+    "count": 2
+  }
+}

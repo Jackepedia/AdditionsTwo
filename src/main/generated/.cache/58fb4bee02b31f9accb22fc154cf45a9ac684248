@@ -1,3 +1,7 @@
-// 1.21.1	2025-06-25T19:35:55.8870507	Additions Two/
+// 1.21.1	2025-06-28T23:11:15.9132521	Additions Two/
 d49e4ed7c598858f7145372ad33fb4b4c0bc3ee6 data\additionstwo\worldgen\configured_feature\mythril_ore.json
 133fa0c5c319dd9549afb3d63a2a7ca7c4c6b360 data\additionstwo\worldgen\placed_feature\mythril_ore_placed.json
+33fafbde139db1e94aa57eec0b69302cd7ad9d70 data\additionstwo\worldgen\placed_feature\tin_ore_placed.json
+eb23ba114237a07af7182f49197799003015910e data\additionstwo\worldgen\configured_feature\zinc_ore.json
+058a5b7a5cfe7c3d527c02b7e654072ad5a1c621 data\additionstwo\worldgen\configured_feature\tin_ore.json
+982afcaa2f0601cce90fdfc816d464b55d59ac77 data\additionstwo\worldgen\placed_feature\zinc_ore_placed.json

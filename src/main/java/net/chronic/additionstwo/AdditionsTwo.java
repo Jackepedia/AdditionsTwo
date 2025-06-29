@@ -4,6 +4,8 @@ import net.chronic.additionstwo.block.ModBlocks;
 import net.chronic.additionstwo.block.entity.ModBlockEntities;
 import net.chronic.additionstwo.item.ModItemGroups;
 import net.chronic.additionstwo.item.ModItems;
+import net.chronic.additionstwo.recipe.ModRecipes;
+import net.chronic.additionstwo.screen.ModScreenHandlers;
 import net.chronic.additionstwo.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
@@ -22,6 +24,7 @@ public class AdditionsTwo implements ModInitializer {
 		ModBlockEntities.registerBlockEntities();
 		ModItemGroups.registerItemGroups();
 		ModWorldGeneration.generateWorldGen();
-
+		ModScreenHandlers.registerScreenHandlers();
+		ModRecipes.registerRecipes();
 	}
 }

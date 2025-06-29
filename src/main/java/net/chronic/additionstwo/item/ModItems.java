@@ -12,6 +12,10 @@ public class ModItems {
     public static final Item BRONZE_INGOT = registerItem("bronze_ingot", new Item(new Item.Settings()));
     public static final Item MYTHRIL_INGOT = registerItem("mythril_ingot", new Item(new Item.Settings()));
     public static final Item RAW_MYTHRIL = registerItem("raw_mythril", new Item(new Item.Settings()));
+    public static final Item TIN_INGOT = registerItem("tin_ingot", new Item(new Item.Settings()));
+    public static final Item ZINC_INGOT = registerItem("zinc_ingot", new Item(new Item.Settings()));
+    public static final Item RAW_TIN = registerItem("raw_tin", new Item(new Item.Settings()));
+    public static final Item RAW_ZINC = registerItem("raw_zinc", new Item(new Item.Settings()));
 
 
     public static final Item STEEL_SWORD = registerItem("steel_sword", new SwordItem(ModToolMaterials.STEEL,

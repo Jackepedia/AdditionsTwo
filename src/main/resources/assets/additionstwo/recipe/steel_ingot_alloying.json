@@ -1,0 +1,16 @@
+{
+  "type": "additionstwo:alloyer",
+  "ingredient1": {
+    "item": "minecraft:iron_ingot"
+  },
+  "ingredient2": {
+    "item": "minecraft:coal"
+  },
+  "ingredient3": {
+    "item": "minecraft:soul_torch"
+  },
+  "result": {
+    "item": "additionstwo:steel_ingot",
+    "count": 2
+  }
+}

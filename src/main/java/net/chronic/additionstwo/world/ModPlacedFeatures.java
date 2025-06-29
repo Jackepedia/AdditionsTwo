@@ -18,6 +18,8 @@ import java.util.List;
 
 public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> MYTHRIL_ORE_PLACED_KEY = registerKey("mythril_ore_placed");
+    public static final RegistryKey<PlacedFeature> TIN_ORE_PLACED_KEY = registerKey("tin_ore_placed");
+    public static final RegistryKey<PlacedFeature> ZINC_ORE_PLACED_KEY = registerKey("zinc_ore_placed");
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatures = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
@@ -25,6 +27,12 @@ public class ModPlacedFeatures {
         register(context, MYTHRIL_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.MYTHRIL_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(3,
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(-60), YOffset.fixed(30))));
+        register(context, TIN_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.TIN_ORE_KEY),
+                ModOrePlacement.modifiersWithCount(12,
+                        HeightRangePlacementModifier.trapezoid(YOffset.fixed(-63), YOffset.fixed(65))));
+        register(context, ZINC_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.ZINC_ORE_KEY),
+                ModOrePlacement.modifiersWithCount(10,
+                        HeightRangePlacementModifier.trapezoid(YOffset.fixed(-62), YOffset.fixed(50))));
     }
 
     public static RegistryKey<PlacedFeature> registerKey(String name) {
